@@ -39,31 +39,31 @@ pip install requests mutagen librosa argparse
 1. **Download a single Suno AI song:**
 
     ```bash
-    python script_name.py -u https://suno.com/song/example-id
+    python get_suno.py -u https://suno.com/song/example-id
     ```	
 
 2. **Download multiple Suno AI songs using a comma-separated list of URLs:**
 
     ```bash
-    python script_name.py -u "https://suno.com/song/example-id1,https://suno.com/song/example-id2"
+    python get_suno.py -u "https://suno.com/song/example-id1,https://suno.com/song/example-id2"
     ```
 
 3. **Download audio and cover image only:**
 
     ```bash
-    python script_name.py -a -u "https://suno.com/song/example-id"
+    python get_suno.py -a -u "https://suno.com/song/example-id"
     ```
 
 4. **Download all content (audio, image, video) for a list of Suno AI song URLs from a file:**
 
     ```bash
-    python script_name.py -l urls.txt
+    python get_suno.py -l urls.txt
     ```
 
 5. **Save the downloaded files to a specific directory:**
 
     ```bash
-    python script_name.py -cd "my custom_directory" -u "https://suno.com/song/example-id"
+    python get_suno.py -cd "my custom_directory" -u "https://suno.com/song/example-id"
     ```
 
 ### Default Behavior
